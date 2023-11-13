@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  align-self: center;
+  font-size: 108px;
+  font-family: 'Urbanist', sans-serif;
+}
+
+canvas {
+  border: 1px solid #000;
+  margin-right: 10px;
+  /* width: 400px;
+  height: 400px ; */
+}
+
+input,
+button {
+  margin: 5px;
+}
+button {
+    background-image: url(reset.png);
+    background-size: 100px 130px;
+    height: 130px;  
+    width: 100px;   
+    border: none;
+}
